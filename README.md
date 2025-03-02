@@ -59,7 +59,7 @@ and test datasets.
 <p align="center">
   <img src="plots/LogisticRegression_test.png" alt="Logistic_test">
 </p>
-To reproduce the plots, run the code in [here]().
+To reproduce the plots, run the code in [here](notebooks/sentiment_analysis.ipynb).
 
 We find that, as the number of features used in the model are less, LSA-enhanced Logistic Regression outperforms the original models. For example $100$ features Logistic Regression has a ROC AUC score around 0.82 while LSA-enhanced counterpart has nearly 0.85 score. 
 
