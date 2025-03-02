@@ -85,6 +85,7 @@ def evaluate(model_name: str,
             train_svd_roc_auc.append(roc_auc_score(y_train, Pr_train, multi_class='ovo'))
             test_svd_roc_auc.append(roc_auc_score(y_test, Pr_test, multi_class='ovo'))      
     
+    
     # Plot the results
     cmap = cm.get_cmap('viridis', 2)
     markers = ['o', 's']    
