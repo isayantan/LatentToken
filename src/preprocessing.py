@@ -10,10 +10,10 @@ import pandas as pd
 import urllib.request
 
 # Download required NLTK resources (if you haven't already)
-nltk.download("punkt")
-nltk.download('punkt_tab')
-nltk.download("wordnet")
-nltk.download("omw-1.4")
+nltk.download("punkt", quiet=True)
+nltk.download('punkt_tab', quiet=True)
+nltk.download("wordnet", quiet=True)
+nltk.download("omw-1.4", quiet=True)
 
 # Initialize lemmatizer
 lemmatizer = WordNetLemmatizer()

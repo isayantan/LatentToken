@@ -1,3 +1,6 @@
+# ignore trial ipynb file
+notebooks/trial.ipynb
+
 # Data Files
 data/
 *.csv
