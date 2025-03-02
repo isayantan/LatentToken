@@ -10,7 +10,7 @@ This repository explores improving tokenization in Natural Language Processing (
 
 ## Sentiment Analysis
 
-We perform sentiment analysis on `AirlineTweets.csv` dataset. For this we use `LogisticRegression` and LSA enhanced versions and plot their comparisons. 
+We perform sentiment analysis on `AirlineTweets.csv` dataset. 
 
 ### Training of Model
 
@@ -50,16 +50,19 @@ The model is trained on the tokenized text data to classify sentiments. The trai
             save=True)
 ```
 ### Logistic Regression
-Here we plot the comparison of Logistic Regression and LSA-enhanced Logistic Regression on the training 
+Here we plot the comparison of Logistic Regression and LSA-enhanced Logistic Regression on the training dataset:
+
 <p align="center">
   <img src="plots/LogisticRegression_train.png" alt="Logistic_train">
 </p>
 
-and test datasets.
+and test datasets:
+
 <p align="center">
   <img src="plots/LogisticRegression_test.png" alt="Logistic_test">
 </p>
-To reproduce the plots, run the code in `notebooks/sentiment_analysis.ipynb`. We find that, as the number of features used in the model decreases, LSA-enhanced Logistic Regression outperforms the original models. For example, $100$ features Logistic Regression, which has an ROC AUC score of around 0.82, while the LSA-enhanced counterpart has a score of nearly 0.85. 
+
+To reproduce the plots, run the code in `notebooks/sentiment_analysis.ipynb`. We find that LSA-enhanced Logistic Regression outperforms the original models as the number of features used in the model decreases. For example, Logistic Regression with 100 features has an ROC AUC score of around 0.82, while the LSA-enhanced counterpart has a score of nearly 0.85. 
 
 ### Advantage with LSA Embedding
 
