@@ -11,9 +11,9 @@ This repository explores improving tokenization in Natural Language Processing (
 ## Sentiment Analysis
 
 <p align="center">
-  <img src="plots/LogisticRegression_train.pdf" alt="Logistic_train">
+  <img src="plots/LogisticRegression_train.png" alt="Logistic_train">
 </p>
 
 <p align="center">
-  <img src="plots/LogisticRegression_test.pdf" alt="Logistic_test">
+  <img src="plots/LogisticRegression_test.png" alt="Logistic_test">
 </p>
