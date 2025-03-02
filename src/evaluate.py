@@ -121,7 +121,7 @@ def evaluate(model_name: str,
         # Add the path to the src directory
         sys.path.append(os.path.abspath(os.path.join('..', 'plots')))
         plt.tight_layout()
-        plt.savefig(os.path.join('..', 'plots', model_name + '_test.pdf'), format='pdf', bbox_inches='tight')
+        plt.savefig(os.path.join('..', 'plots', model_name + '_test.png'), format='png', bbox_inches='tight')
     plt.show()
     
     # Train Accuracy
@@ -154,6 +154,6 @@ def evaluate(model_name: str,
         # Add the path to the src directory
         sys.path.append(os.path.abspath(os.path.join('..', 'plots')))
         plt.tight_layout()
-        plt.savefig(os.path.join('..', 'plots', model_name + '_train.pdf'), format='pdf', bbox_inches='tight')
+        plt.savefig(os.path.join('..', 'plots', model_name + '_train.png'), format='png', bbox_inches='tight')
     plt.show()
     
