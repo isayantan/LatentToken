@@ -6,7 +6,7 @@ This repository explores improving tokenization in Natural Language Processing (
 
 - `src/`: Contains all main scripts (preprocessing, model, evaluation).
 - `notebooks/`: Jupyter notebooks for development, testing, and visualization.
-- `plots/`: Stores plots.
+- `plots/`: Stores plots of comparison.
 
 ## Sentiment Analysis
 
